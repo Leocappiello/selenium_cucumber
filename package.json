@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "update-webdriver": "npx webdriver-manager update --chrome",
+    "test": "npm run update-webdriver && cucumber-js"
   },
   "keywords": [],
   "author": "",
